@@ -182,28 +182,28 @@ img {
     clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
 }
 
-#header #hero .hero-container {
+#hero .hero-container {
     padding: 100px;
     text-align: center;
     color: var(--white);
 }
 
-#header #hero .hero-container #hero-img {
+#hero .hero-container #hero-img {
     width: 130px;
     border-radius: 50%;
 }
 
-#header #hero .hero-container .hero-title {
+#hero .hero-container .hero-title {
     font-family: Thunder-Bold;
     font-size: 40px;
 }
 
-#header #hero .hero-container .hero-p {
+#hero .hero-container .hero-p {
     margin-top: 10px;
     font-size: 20px;
 }
 
-#header #hero .hero-container .hero-p span {
+#hero .hero-container .hero-p span {
     font-weight: 700;
 }
 
@@ -221,11 +221,6 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-}
-
-#traditional-art .traditional-art-container .traditional-art-row img:nth-child(11) {
-    grid-row: 4;
-    grid-column: 4/2;
 }
 
 #traditional-art .traditional-art-container .see-more {
@@ -302,7 +297,7 @@ img {
 
     /* HERO */
 
-    #header #hero .hero-container {
+    #hero .hero-container {
         padding: 100px 80px 50px 80px;
     }
 
@@ -339,7 +334,7 @@ img {
     }
 
     /* HERO */
-    #header #hero .hero-container {
+    #hero .hero-container {
         padding: 100px 40px 100px 40px;
     }
 
@@ -379,13 +374,12 @@ img {
         font-size: 30px;
     }
 
-
-    #header #nav .nav-menu {
+    #nav .nav-menu {
         padding-left: 20px;
     }
 
     /* HERO */
-    #header #hero .hero-container {
+    #hero .hero-container {
         padding: 100px 20px 100px 20px;
     }
 
